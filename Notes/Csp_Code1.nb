@@ -1,0 +1,35 @@
+Notebook[{Cell[
+BoxData[{RowBox[{"\n",RowBox[{"##"," ","Csp"," ","programming"," ","language"," ",RowBox[
+{"(",RowBox[{"Central"," ","System"," ","Programming"}],")"}]}]}],"\n",RowBox[{"include"," ","lib",RowBox[
+{"(","csp_h",")"}]}]}],"Input",ExpressionUUID -> "835a628e-0df9-42ef-99d3-25e23255ceed"],Cell[
+BoxData[
+{RowBox[{"\n",RowBox[{RowBox[{"public"," ","void"," ","Start",RowBox[{"(",")"}]}],"\n","{"}]}],"\n",RowBox[
+{RowBox[{RowBox[{"int"," ","x"}],",","y",","," ","a",","," ",RowBox[{"b"," ","##"," ",RowBox[
+{"don","'"}],"t"," ","need"," ","to"," ","define"," ","only"," ","because"," ","we"," ","want"," ","int"," ","numbers"," ","and"," ","not"," ","string"}]}],"\n",RowBox[
+{"Label"," ",RowBox[{"L2",":"," ",RowBox[{"##"," ","when"," ","called"," ","Label"," ","it"," ","start"," ","back"," ","from"," ","this"," ","place"}]}]}],"\n",RowBox[
+{RowBox[{"read",RowBox[{"(",RowBox[{"\"Enter two numbers: \""," ",","," ","x",","," ","y"}],")"}]," ","##"," ","reads"," ","two"," ","variables"," ","and"," ","assign"," ","it"," ","into","  ","x"}],",","y"}],"\n",RowBox[
+{RowBox[{"print",RowBox[{"(",RowBox[{"\"This is the sum of: \"",","," ","x",",","  ","\" + \"",","," ","y",","," ","\" = \"",","," ",RowBox[
+{"x","+","y"}]}],")"}]," ","##"," ","print"," ","x"}],"+","y"}],"\n",RowBox[{"print",RowBox[
+{"(",RowBox[{"\"This is the multiplication of: \"",","," ","x",",","  ","\" * \"",","," ","y",","," ","\" = \"",","," ",RowBox[
+{"x","*","y"}]}],")"}]}],"\n","\n",RowBox[{"z"," ","="," ",RowBox[{RowBox[{"x","*"," ","y"}]," ","-"," ","x","+"," ",RowBox[
+{"y"," ","##"," ","what"," ","is"," ","calculated"," ",RowBox[{"first","?","\n","read"}],RowBox[
+{"(",RowBox[{"\"Enter number that fullfills the equation x*y-x+y: \"",","," ","a"}],")"}]," ","##"," ","assign"," ","number"," ","into"," ","a"}]}]}],"\n",RowBox[
+{"Label"," ",RowBox[{"L1",":","\n",RowBox[{"if"," ",RowBox[{"(",RowBox[{RowBox[{"z",".","isEqual"}],RowBox[
+{"(","a",")"}]}],")"}],"  ","##"," ","function"," ","including"," ","inside"," ","the"," ","int"," ","class"}]}]}],"\n",RowBox[
+{"{","\n",RowBox[{"print",RowBox[{"(","\"Correct!\"",")"}]}],"\n","}"}],"\n","else","\n",RowBox[
+{"{","\n",RowBox[{"print",RowBox[{"(","\"Try Again!\"",")"}],"\n","jump"," ","L1"," ","##","  ","jumps"," ","to"," ","the","  ","label"," ","and"," ","calls"," ","it"}],"\n","}"}],"\n",RowBox[
+{RowBox[{"L1",".","end"}],RowBox[{"(",")"}]," ","##"," ","calls"," ","the"," ","end"," ","of"," ","label"}],"\n",RowBox[
+{"print",RowBox[{"(",RowBox[{"\"Enter 0 to exit: \""," ",",","b"}],")"}]}],"\n",RowBox[
+{RowBox[{RowBox[{RowBox[{"endif",RowBox[{"(",RowBox[{RowBox[{"scan",RowBox[{"(",RowBox[
+{RowBox[{"console",".","input"}],RowBox[{"(","b",")"}]}],")"}]}]," ","=="," ","0"}],")"}]," ","##"," ","endif"}]," ","="," ",RowBox[
+{"end"," ","program"," ","if"," ","input"," ","is"," ","true"}]}],";"," ",RowBox[
+{"scan"," ","="," ",RowBox[{"scans"," ","console"," ","input"}]}]}],","," ",RowBox[
+{RowBox[{"not"," ","UI"}],";"," ",RowBox[{RowBox[{"console",".","input"}]," ","="," ",RowBox[
+{"waits","          ","##","until"," ","console"," ","inputs"," ","a"," ","number"}]}]}],","," ",RowBox[
+{RowBox[{"here"," ","b"," ","from"," ","the"," ","UI"}]," ","\[Rule]"," ",RowBox[
+{RowBox[{"shouldn","'"}],"t"," ","be"," ",RowBox[{"done","."," ","\n","jump"}]," ","L2"," ","##"," ","if"," ","endif"," ","will"," ","be"," ","false"}]}],","," ",RowBox[
+{"it"," ","goes"," ","further"}],","," ",RowBox[{"for"," ","this"," ","we"," ","call"," ","label"," ","to"," ","go"," ","back"}]}]," ","\n","\n",RowBox[
+{"##"," ","program"," ","concludes"," ","only"," ","if"," ","return"," ","end"," ","program"," ","is"," ","called"}],"\n",RowBox[
+{RowBox[{"console",".","end"}],RowBox[{"(",")"}]}],"\n",RowBox[{"##"," ","or"}]," ","\n",RowBox[
+{"return"," ","end"}],"\n","\n"}]}],"Input",ExpressionUUID -> "5e5d8be1-05ca-4833-9af4-ae67f112a786"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "13. for Wolfram Cloud 1.61.2.3 (February 12, 2022)"]

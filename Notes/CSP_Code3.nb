@@ -1,0 +1,50 @@
+Notebook[{Cell[
+BoxData[RowBox[{"\n",RowBox[{RowBox[{RowBox[{"int"," ",RowBox[{"a","[","]"}]}],"  ","="," ",RowBox[
+{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4"}],"}"}]," ","=",RowBox[{RowBox[{">"," ",RowBox[
+{"print",RowBox[{"(","a",")"}]}]}]," ","=",RowBox[{">"," ","\"1 2 3 4\""}]}]}]}]," ","\n",RowBox[
+{RowBox[{"char"," ",RowBox[{"b","[","]"}]}]," ","="," ",RowBox[{RowBox[{"{",RowBox[
+{"a",",","b",",","c",",","d"}],"}"}]," ","=",RowBox[{RowBox[{">"," ",RowBox[{"print",RowBox[
+{"(","b",")"}]}]}]," ","=",RowBox[{">"," ","\"a b c d\""}]}]}]}]," ","\n",RowBox[
+{RowBox[{"float"," ",RowBox[{"c","[","]"}]}]," ","="," ","same"}],"\n",RowBox[{RowBox[
+{"double"," ",RowBox[{"d","[","]"}]}]," ","="," ","same"}],"\n",RowBox[{RowBox[{"string"," ",RowBox[
+{"e","[","]"}]}]," ","="," ",RowBox[{RowBox[{"{",RowBox[{"abc",","," ","def",","," ","ghi",","," ","jkl"}]," ","}"}]," ","=",RowBox[
+{RowBox[{">"," ",RowBox[{"print",RowBox[{"(","e",")"}]}]}]," ","=",RowBox[{">"," ","\"abc def ghi jkl\""}]}]}]}],"\n",RowBox[
+{RowBox[{"long"," ",RowBox[{"f","[","]"}]}]," ","="," ","same"}],"\n",RowBox[{RowBox[
+{RowBox[{"List","<","type",">"," ","g"}],"  ","="," ",RowBox[{RowBox[{"{",RowBox[
+{"type",","," ","type",","," ","type"}],"}"}]," ","=",RowBox[{">"," ",RowBox[{"\" type type type ...\""," ","##"," ","cannot"," ","change"," ","type"}]}]}]}],","," ",RowBox[
+{"can"," ","also"," ","be"," ","arrays"," ","in"," ","List"}]}],"\n",RowBox[{RowBox[
+{"Vector","<>","h"}]," ","="," ","same"}],"\n",RowBox[{RowBox[{RowBox[{"doubleString"," ","i"}]," ","=",RowBox[
+{RowBox[{"{",RowBox[{"\"Hello \"",",","1",","," ","\" there \""}],"}"}]," ","=",RowBox[
+{RowBox[{">",RowBox[{"print",RowBox[{"(","i",")"}]}]}]," ","=",RowBox[{">"," ",RowBox[
+{"\"Hello 1 there\""," ","##","array"," ","of"," ","Strings"}]}]}]}]}],","," ",RowBox[
+{"converts"," ","all"," ","values"," ","as"," ","possible"," ","to"," ","strings"," ","and"," ","keeps"," ","it"," ","as"," ","one"," ","long"," ","string"}]}]," ","\n",RowBox[
+{"define"," ","typedef"," ","T"}],"\n",RowBox[{RowBox[{RowBox[{"T","[","]"}]," ","##"," ","array"," ","of"," ","type"," ","of"," ","T"}],","," ",RowBox[
+{"can"," ","only"," ","be"," ","one"," ","type"}]}],"\n","\n",RowBox[{RowBox[{"static"," ","type"," ",RowBox[
+{"array","[","]"}]," ","##"," ","is"," ","static"}],","," ",RowBox[{"means"," ","its"," ","constant"," ","and"," ","size"," ","cannot"," ","be"," ","change"}],","," ",RowBox[
+{"but"," ","the"," ","values"," ","yes"}]}],"\n",RowBox[{RowBox[{RowBox[{RowBox[{"int"," ",RowBox[
+{"array","[","]"}]}]," ","\[NotEqual]"," ",RowBox[{"12345"," ","##"," ","you"," ","cannot"," ","do"," ","a"}]}],"="," ",RowBox[
+{RowBox[{"1234"," ","and"," ","go"," ","over"," ","with"," ",RowBox[{"a","[","1","]"}]}]," ","=="," ","2"}]}],","," ",RowBox[
+{"a"," ","is"," ","not"," ","an"," ",RowBox[{"array","!"}]," ","its"," ","an"," ",RowBox[
+{"interger","!"}]," ","same"," ","as"," ","other"," ","ones"}]}],"\n",RowBox[{RowBox[
+{"List"," ","<","int",">"," ","inter"}]," ","="," ",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6"}],"}"}]," ","##"," ","List"," ","contains"," ","values"," ","of"," ","the"," ","same"," ","type"," ","inside"}]}],"\n",RowBox[
+{RowBox[{RowBox[{"List"," ","<",RowBox[{"int","[","]"}],">"," ","inter2"}]," ","="," ",RowBox[
+{RowBox[{RowBox[{"{"," ",RowBox[{"a",",","b",",","c",",","d"}],"}"}]," ","##"," ","where"," ","a"}],"-",RowBox[
+{"d"," ","is"," ","arrays"," ","of"," ","ints"}]}]}],","," ","\n",RowBox[{RowBox[
+{"List"," ","<","int",">"," ","inter"}]," ","="," ",RowBox[{RowBox[{"{",RowBox[{"1",",","2",",","3",",","4",",","5",",","6",",","7"}],"}"}]," ","##"," ","size"," ","is"," ","change"," ","to"," ","7"," ",RowBox[
+{"(",RowBox[{"with"," ",RowBox[{"the"," ","/","0"}]}],")"}]}]}],","," ",RowBox[{"before"," ","it"," ","was"," ","6."," ","Since"," ","by"," ","type"," ","List"," ","we"," ","can"," ","do"," ","that"," ","but"," ","not"," ","in"," ","others"}]}],"\n",RowBox[
+{RowBox[{"Vector"," ","<>"," ","h"}]," ","##"," ","is"," ","same"," ","as"," ","list"," ","but"," ","works"," ","differently"}],"\n",RowBox[
+{RowBox[{"typedef"," ","T"," ","##"," ","defines"," ","a"," ","type"," ","of"," ","something"," ","as"," ","T"}],","," ",RowBox[
+{"notice"," ","that"," ","type"," ","of"," ","T"," ","cannot"," ","be"," ","change"," ","when"," ","it"," ","is"," ","defined"}]}],"\n",RowBox[
+{RowBox[{"Label"," ",RowBox[{"L1",":"," ",RowBox[{"##"," ","is"," ","a"," ","label"," ","defined"," ","where"," ","to"," ","start"," ","when"," ","called"}]}]}],","," ",RowBox[
+{"will"," ","not"," ","stop"," ","previous"," ","program"}]}],"\n",RowBox[{RowBox[
+{RowBox[{"L1",".","end"}]," ","##"," ","end"," ","of"," ","the"," ","label"}],","," ",RowBox[
+{"will"," ","stop"," ","the"," ","call"," ","of"," ","the"," ","current"," ","label"," ","and"," ","go"," ","further"," ","from"," ","where"," ","it"," ","ended"}],","," ",RowBox[
+{"not"," ","like"," ","functions"}]}],"\n",RowBox[{RowBox[{"Stack0"," ","##"," ","is"," ","for"," ","the"," ","compliler"}],","," ",RowBox[
+{"will"," ","start"," ","the"," ","program"," ","wherever"," ","the"," ","Stack0"," ","is"," ","called"}],","," ",RowBox[
+{"in"," ","default"," ","it"," ","will"," ","be"," ","called"," ","by"," ","Main"," ","or"," ","Start"}],","," ",RowBox[
+{"if"," ","that"," ","is"," ","not"," ","given"," ","then"," ","the"," ","first"," ",RowBox[
+{"function","/","class"}]," ","will"," ","be"," ","it"}]}],"\n",RowBox[{"Stack1"," ","##"," ","there"," ","is"," ","no"," ","other"," ","numbers"," ","and"," ","cannot"," ","be"," ","used"," ","by"," ","user"," ","to"," ","define"," ","whats"," ","is"," ","first"," ","or"," ",RowBox[
+{"not","."," ","Stack1"}]," ","is"," ","defined"," ","also"," ","as"," ","end",RowBox[
+{"(",")"}]}]," ","\n",RowBox[{"open",RowBox[{"(",")"}]," ","##"," ","opens"," ","external"," ","document"}],"\n","\n","\n"}]}]],
+"Input",ExpressionUUID -> "acf015fb-01de-40e4-b588-2528fa92812f"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2.3 (February 12, 2022)"]

@@ -1,0 +1,68 @@
+Notebook[{Cell[
+BoxData[{RowBox[{"\n","\n",RowBox[{"##"," ","Csp"," ","programming"," ","language"," ",RowBox[
+{"(",RowBox[{"Central"," ","System"," ","Programming"}],")"}]}]}],"\n",RowBox[{"include"," ","lib",RowBox[
+{"(","csp_h",")"}]}],RowBox[{"\n","\n"}],RowBox[{RowBox[{RowBox[{"public"," ","func"}],"<","void",">",RowBox[
+{"Start",RowBox[{"(",")"}]}]}],"\n","{"}],"\n",RowBox[{RowBox[{RowBox[{"string"," ","firstname"}],","," ","lastname"}],"\n",RowBox[
+{"char"," ","letter"}],"\n",RowBox[{"int"," ","index"}],"\n","\n",RowBox[{"s1","="," ",RowBox[
+{"\"Hello \""," ","##","string"," ","class"," ","is"," ","included"," ","in"," ","csp"," ","library"}]}],"\n",RowBox[
+{"print",RowBox[{"(","s1",")"}]}],"\n","\n",RowBox[{RowBox[{"print",RowBox[{"(",RowBox[
+{"\"Whats your name?\""," ",","," ","endl"}],")"}]," ","##"," ","endl"," ","is"," ","inside"," ","print"}],","," ",RowBox[
+{"but"," ","does"," ","not"," ","show"," ","up"}],","," ",RowBox[{"since"," ","is"," ","a"," ","console"," ","program"," ","line"," ","and"," ","not"," ","UI"}]}]," ","\n",RowBox[
+{RowBox[{"read",RowBox[{"(",RowBox[{"firstname",","," ","lastname"}],")"}]," ","##"," ","reads"," ","two"," ","strings"}],","," ",RowBox[
+{"separated"," ","by"," ","space"," ","click"}],","," ",RowBox[{"but"," ","does"," ","not"," ","save"," ","space"}]}],"\n","\n",RowBox[
+{RowBox[{"fullname"," ","="," ",RowBox[{"firstname"," ","+"," ","\" \""," ","+"," ",RowBox[
+{"lastname"," ","##"," ","need"," ","to"," ","save"," ","space"," ","too"}]}]}],","," ",RowBox[
+{RowBox[{"+","  ","only"}]," ","adds"," ","a"," ","string"," ","to"," ","the"," ","end"," ","of"," ","the"," ","other"," ","and"," ","increments"," ","the"," ","size"," ","automatically"}]}],"\n",RowBox[
+{"print",RowBox[{"(",RowBox[{"fullname",","," ","endl"}],")"}]}],"\n","\n",RowBox[
+{"size"," ","="," ",RowBox[{RowBox[{"fullname",".","size"}],RowBox[{"(",")"}]}]}],"\n",RowBox[
+{"print",RowBox[{"(","size",")"}]}],"\n","\n",RowBox[{"read",RowBox[{"(",RowBox[{"\"Enter letter: \""," ",","," ","letter"}],")"}]," ","##"," ","by"," ","this"," ","we"," ","search"," ","inside"," ","the"," ","string"," ","the"," ","letter"," ",RowBox[
+{"given","."," ","And"}]," ","will"," ","only"," ","output"," ","the"," ","first"," ","index"," ","the"," ","letter"," ","is"," ","found"}],"\n",RowBox[
+{RowBox[{"int"," ","letterindex"}]," ","="," ",RowBox[{RowBox[{"fullname",".","search"}],RowBox[
+{"(","letter",")"}]}]}]," ","\n",RowBox[{RowBox[{"if",RowBox[{"(",RowBox[{"letterindex"," ","\[GreaterEqual]","0"}],")"}]," ","##"," ","need"," ","to"," ","check"," ","if"," ","the"," ","letter"," ","is"," ","even"," ","inside"," ","the"," ","string"}],","," ",RowBox[
+{RowBox[{"when"," ","not"," ","found"," ","the"," ","result"," ","would"," ","be"}]," ","-","1"}],","," ",RowBox[
+{"so"," ","outside"," ","the"," ","array"}]}],"\n","       ",RowBox[{"print",RowBox[
+{"(","letterindex",")"}]}],"\n","else","\n","      ",RowBox[{"print",RowBox[{"(","\"NOT Found!\"",")"}]}],"\n","\n",RowBox[
+{"read",RowBox[{"(",RowBox[{"\"Enter number: \"",","," ","index"}],")"}]}],"\n",RowBox[
+{RowBox[{"print",RowBox[{"(",RowBox[{RowBox[{"fullname",".","search"}],RowBox[{"(","index",")"}]}],")"}]," ","##"," ","searches"," ","by"," ",RowBox[
+{"index","."," ","If"}]," ","input"," ","is"," ","int"," ","then"," ","it"," ","will"," ","search"," ","index"}],","," ",RowBox[
+{"if"," ","char"," ","then"," ","outputs"," ","the"," ",RowBox[{"index","!"}]," ","But"," ","cannot"," ","search"," ","by"," ",RowBox[
+{"string","!"}]}]}],"\n","\n",RowBox[{"x"," ","="," ",RowBox[{RowBox[{RowBox[{"fullname",".","search"}],RowBox[
+{"(","\" \"",")"}]," ","##","cannot"," ","use"," ","char"}]," ","+"," ",RowBox[{"int"," ","inside"," ",RowBox[
+{"search","!"}]}]}]}],"  ","\n",RowBox[{"firstLetterofName"," ","="," ",RowBox[{RowBox[
+{"(",RowBox[{RowBox[{"fullname",".","search"}],RowBox[{"(","0",")"}]}],")"}]," ","+"," ",RowBox[
+{RowBox[{"(",RowBox[{RowBox[{"fullname",".","search"}],RowBox[{"(",RowBox[{"x","+","1"}],")"}]}],")"}]," ","##"," ","saves"," ","first"," ","letter"," ","in"," ","0"," ","index"," ","and"," ","first"," ","letter"," ","of"," ","lastname"," ","and"," ","puts"," ","it"," ","as"," ","string"," ","with"," ","3"," ","elements"," ",RowBox[
+{"(",RowBox[{RowBox[{"/","0"}]," ","is"," ","also"," ","a"," ","indexx"}],")"}]}]}]}],"\n","\n",RowBox[
+{"newString1"," ","="," ",RowBox[{"fullname"," ","##"," ","calls"," ","the"," ","copy"," ","constructor"," ","and"," ","copies"," ","the"," ","fullname"," ","inside"," ","newString1"}]}],"\n",RowBox[
+{RowBox[{RowBox[{"newString2",".","strcpy"}],RowBox[{"(","fullname",")"}]," ","##"," ","does"," ","not"," ","work"," ","with"," ","basic"," ","library"}],","," ",RowBox[
+{"since"," ","it"," ","is"," ",RowBox[{"c","++"}]," ","and"," ","not"," ","csp"," ","code"}]}],"\n",RowBox[
+{"print",RowBox[{"(","newString1",")"}]}],"\n",RowBox[{"print",RowBox[{"(","newString2",")"}]," ","##"," ","prints"," ","nothing"," ","since"," ","error"}],"\n","\n",RowBox[
+{RowBox[{RowBox[{"print",RowBox[{"(",RowBox[{RowBox[{"newString1",".","size"}],RowBox[
+{"(",")"}]}],")"}]," ","size"}]," ","="," ",RowBox[{RowBox[{"size"," ","of"," ","fullname"}]," ","+","1"}]}],","," ",RowBox[
+{"since"," ","/","0"}]}],"\n",RowBox[{RowBox[{"print",RowBox[{"(",RowBox[{RowBox[
+{"newString2",".","size"}],RowBox[{"(",")"}]}],")"}]," ","##"," ","size"}]," ","="," ","0"}],"\n","\n",RowBox[
+{RowBox[{"Right1"," ","="," ",RowBox[{RowBox[{"newString1",".","isEqual"}],RowBox[
+{"(","newString2",")"}]," ","##"," ","compare"," ","string"," ","to"," ","string"}]}],","," ",RowBox[
+{"Right1"," ","is"," ","a"," ","boolean"}]}],"\n",RowBox[{RowBox[{"Right2"," ","="," ",RowBox[
+{RowBox[{"newString1",".","strcmp"}],RowBox[{"(","newString2",")"}]," ","##"," ","does"," ","not"," ","exist"}]}],","," ",RowBox[
+{RowBox[{"since"," ",RowBox[{"c","++"}]}]," ","\[Rule]"," ","error"}]}],"\n",RowBox[
+{"print",RowBox[{"(","Right1",")"}]," ","##"," ","1"," ","for"," ","true"," ","and"," ","0"," ","for"," ","false"}],"\n",RowBox[
+{"print",RowBox[{"(","Right2",")"}],"##"," ","error"}],"\n","\n",RowBox[{"print",RowBox[
+{"(",RowBox[{"fullname","[","0","]"}],")"}]," ","##"," ","prints"," ","first"," ","place"," ","in"," ","fullname"}],"\n","\n",RowBox[
+{"##"," ","search"," ","func"," ","of"," ","searching"," ","a"," ","string"," ","inside"," ","a"," ",RowBox[
+{"string",":","\n",RowBox[{"func","<","bool",">"," ",RowBox[{"searchByString",RowBox[
+{"(",RowBox[{RowBox[{"string"," ","A"}],","," ",RowBox[{"string"," ","B"}]}],")"}]," ","const"}]}]," ",":"," ",RowBox[
+{"bool"," ","ok"}]}]}],"\n",RowBox[{"{","\n",RowBox[{"ok"," ","="," ",RowBox[{"false","\n","if"," ",RowBox[
+{"(",RowBox[{RowBox[{RowBox[{"A",".","size"}],RowBox[{"(",")"}]}]," ","<"," ",RowBox[
+{RowBox[{"B",".","size"}],RowBox[{"(",")"}]}]}],")"}],"\n",RowBox[{"{","\n",RowBox[
+{"return"," ","false"}],"\n","}"}],"\n","for"," ",RowBox[{"(",RowBox[{RowBox[{"i"," ","="," ","0"}],","," ",RowBox[
+{"i"," ","<"," ",RowBox[{RowBox[{"A",".","size"}],RowBox[{"(",")"}]}]}],","," ",RowBox[
+{"i","++"}]}],")"}],"\n",RowBox[{"{","\n",RowBox[{"if",RowBox[{"(",RowBox[{RowBox[
+{"A","[","i","]"}]," ","=="," ",RowBox[{"B","[","0","]"}]}],")"}],"\n",RowBox[{"{","\n",RowBox[
+{"for"," ",RowBox[{"(",RowBox[{RowBox[{"j"," ","="," ","i"}],","," ",RowBox[{"j"," ","<"," ",RowBox[
+{RowBox[{RowBox[{"B",".","size"}],RowBox[{"(",")"}]}],"-","1"}]}],","," ",RowBox[
+{"j","++"}]}],")"}],"\n",RowBox[{"{","\n",RowBox[{"if",RowBox[{"(",RowBox[{RowBox[
+{"A","[","j","]"}]," ","="," ",RowBox[{"B","[","j","]"}]}],")"}],"\n",RowBox[{"{"," ","\n",RowBox[
+{"ok"," ","="," ","true"}],"\n","}"}]}],"\n","}"}],"\n","if",RowBox[{"(","ok",")"}],"\n",RowBox[
+{"{","\n","break","\n","}"}],"\n","else"," ","\n",RowBox[{"{","\n",RowBox[{"ok"," ","="," ","false"}],"\n","}"}]}],"\n","}"}]}],"\n","}"}],"\n","return"," ","ok"}]}],"\n","}"}],"\n"}]}],
+"Input",ExpressionUUID -> "3a4b3fe4-5f9c-4224-b0e7-c97c7a29a3cc"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13. for Wolfram Cloud 1.61.2.3 (February 12, 2022)"]

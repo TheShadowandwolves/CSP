@@ -1,0 +1,77 @@
+Notebook[{Cell[
+BoxData[{RowBox[{"\n",RowBox[{RowBox[{RowBox[{"addressBook","::","addressBook"}],RowBox[
+{"(",")"}]}],"\n","{"}]}],"\n",RowBox[{RowBox[{RowBox[{"Name"," ","="," ","null"}],"\n",RowBox[
+{"phoneNumber"," ","="," ","000000000"}],"\n",RowBox[{"address"," ","="," ","null"}],"\n"}],"}"}],"\n",RowBox[
+{RowBox[{"addressBook","::","addressBook"}],RowBox[{"(",RowBox[{"_name",","," ","_pn",","," ","_ad"}],")"}]}],"\n",RowBox[
+{RowBox[{"{","\n",RowBox[{"Name"," ","="," ",RowBox[{RowBox[{"_name","\n","phoneNumber"}]," ","="," ",RowBox[
+{RowBox[{RowBox[{RowBox[{"(",RowBox[{RowBox[{"_pn"," ","<"," ","100000000"}]," ","||"," ",RowBox[
+{"_pn"," ",">"," ","999999999"}]}],")"}],"  ","?"," ","0"}]," ",":"," ",RowBox[{"_pn","\n","address"}]}]," ","="," ","_ad"}]}]}],"\n","}"}],"\n",RowBox[
+{RowBox[{"addressBook","::","addressBook"}],RowBox[{"(","_name",")"}]," "}]}],"\n","{","\n",RowBox[
+{RowBox[{RowBox[{RowBox[{"addressBook",RowBox[{"(",RowBox[{"_name",","," ","0",","," ","null"}],")"}]}],"\n"}],"}"}],"\n","\n",RowBox[
+{RowBox[{"virtual"," ","~","addressBook"}],RowBox[{"(",")"}]," ",RowBox[{"{","}"}]}]}],RowBox[
+{"\n","\n"}],RowBox[{RowBox[{"addressBook","::","addressBook","::","set"}],RowBox[
+{"(",RowBox[{"_name",","," ","_pn",","," ","_ad"}],")"}]}],"\n","{","\n",RowBox[{RowBox[
+{RowBox[{RowBox[{"addressBook",RowBox[{"(",RowBox[{"_name",","," ","_pn",","," ","_ad"}],")"}]}],"\n"}],"}"}],"\n",RowBox[
+{RowBox[{"addressBook","::","addressBook","::","set"}],RowBox[{"(","_name",")"}]}]}],"\n","{","\n",RowBox[
+{RowBox[{RowBox[{"Name"," ","="," ","_name"}],"\n"}],"}"}],"\n",RowBox[{RowBox[{RowBox[
+{"addressBook","::","addressBook","::","get"}],"<","addressBook",">",RowBox[{"(",")"}]}],"\n","{"}],"\n",RowBox[
+{RowBox[{RowBox[{"return"," ","this"}],"\n"}],"}"}],"\n",RowBox[{RowBox[{"addressBook","::","addressBook","::","get"}],"<","Name",">",RowBox[
+{"(",")"}],"  "}],"\n",RowBox[{"{","\n",RowBox[{"return"," ","Name"}],"\n","}"}],"\n",RowBox[
+{RowBox[{"addressBook","::","addressBook","::","get"}],"<","phoneNumber",">",RowBox[
+{"(",")"}]," "}],"\n",RowBox[{"{","\n",RowBox[{"return"," ","phoneNumber"}],"\n","}"}],"\n",RowBox[
+{RowBox[{RowBox[{"addressBook","::","addressBook","::","get"}],"<","address",">",RowBox[
+{"(",")"}]}],"\n","{"}],"\n",RowBox[{RowBox[{RowBox[{"return"," ","address"}],"\n"}],"}"}],RowBox[
+{"\n","\n"}],RowBox[{RowBox[{"addressBook","::","addressBook","::","operator"}],"=",RowBox[
+{"(",RowBox[{"addressBook"," ","B"}],")"}]}],"\n",RowBox[{"{","\n",RowBox[{"Name"," ","="," ",RowBox[
+{RowBox[{RowBox[{"B",".","Name"}],"\n","phoneNumber"}]," ","="," ",RowBox[{RowBox[
+{RowBox[{"B",".","phoneNumber"}],"\n","address"}]," ","="," ",RowBox[{"B",".","address"}]}]}]}],"\n","}"}],"\n",RowBox[
+{RowBox[{"addressBook","::","addressBook","::","operator"}],"<","bool",">"," ","==",RowBox[
+{"(",RowBox[{"addressBook"," ","B"}],")"}]}],"\n",RowBox[{RowBox[{"{","\n",RowBox[
+{"if",RowBox[{"(",RowBox[{"Name"," ","=="," ",RowBox[{"B",".","Name"}]}],")"}],RowBox[
+{"{","\n",RowBox[{"return"," ","true"}],"\n","}"}],"\n","return"," ","false"}],"\n","}"}],"\n"}]}],
+"Input",ExpressionUUID -> "7d229c93-ad7e-413f-baa9-a54d9779c66d"],Cell[
+BoxData[{RowBox[
+{"\n",RowBox[{RowBox[{RowBox[{"Book","::","Book"}],RowBox[{"(",")"}]}],"\n","{"}]}],"\n",RowBox[
+{RowBox[{RowBox[{RowBox[{RowBox[{"int"," ","size"}]," ","="," ","0"}],"\n",RowBox[
+{"addresses"," ","="," ",RowBox[{"new"," ","<","List",">",RowBox[{"[","size","]"}]}]}],"\n"}],"}"}],"\n","\n",RowBox[
+{RowBox[{"Book","::","Book"}],RowBox[{"(","num",")"}]}]}],"\n","{","\n",RowBox[{RowBox[
+{RowBox[{RowBox[{"size"," ","=","num"}],"\n",RowBox[{"addresses"," ","="," ",RowBox[
+{"new"," ","<","List",">",RowBox[{"[","size","]"}]}]}],"\n","\n"}],"}"}],"\n","\n",RowBox[
+{RowBox[{RowBox[{"Book","::"}],"~","Book"}],RowBox[{"(",")"}]}]}],"\n","{","\n",RowBox[
+{RowBox[{RowBox[{"delete"," ","addresses"}],"\n",RowBox[{"size"," ","="," ","0"}],"\n"}],"}"}],RowBox[
+{"\n","\n"}],RowBox[{RowBox[{"Book","::","Book","::","set"}],RowBox[{"(","B",")"}]}],"\n",RowBox[
+{"{","\n",RowBox[{"if",RowBox[{"(",RowBox[{"size"," ","=="," ","0"}],")"}],RowBox[
+{"{","\n",RowBox[{RowBox[{"size","++"}],"\n",RowBox[{"addresses",".","size"}],RowBox[
+{"(","size",")"}]}],"\n","}"}],"\n",RowBox[{"addresses",".","add"}],RowBox[{"(","B",")"}]}],"\n","}"}],"\n",RowBox[
+{RowBox[{"Book","::","Book","::","set"}],RowBox[{"(",RowBox[{"name",","," ","pn",","," ","ad"}],")"}]}],"\n",RowBox[
+{RowBox[{"{","\n",RowBox[{"addressBook"," ","B",RowBox[{"(",RowBox[{"name",","," ","pn",","," ","ad"}],")"}],"\n",RowBox[
+{"this",".","set"}],RowBox[{"(","B",")"}]}],"\n","}"}],"\n",RowBox[{RowBox[{"Book","::","Book","::","get"}],"<","addresses",">",RowBox[
+{RowBox[{"(",")"}],"{"}]}]}],"\n",RowBox[{RowBox[{RowBox[{"return"," ","addresses"}],"\n"}],"}"}],"\n",RowBox[
+{RowBox[{RowBox[{"Book","::","Book","::","get"}],"<","size",">",RowBox[{"(",")"}]}],"\n","{"}],"\n",RowBox[
+{RowBox[{RowBox[{"return"," ","size"}],"\n"}],"}"}],RowBox[{"\n","\n"}],RowBox[{RowBox[
+{"Book","::","func"}],"<","void",">"," ",RowBox[{"add",RowBox[{"(","B",")"}]}]}],"\n",RowBox[
+{"{","\n",RowBox[{RowBox[{"if",RowBox[{"(",RowBox[{RowBox[{"this",".","found"}],RowBox[
+{"(",RowBox[{"B",".","Name"}],")"}]}],")"}],"\n",RowBox[{"{","\n","return","\n","}"}],"\n",RowBox[
+{"this",".",RowBox[{"size","++"}]}],"\n",RowBox[{"this",".",RowBox[{"addresses","[","size","]"}]}]}],"="," ","B"}],"\n","}"}],"\n",RowBox[
+{RowBox[{"Book","::","func"}],"<","void",">"," ",RowBox[{"changeInformation",RowBox[
+{"(",RowBox[{"name",","," ","pn",","," ","ad"}],")"}]}]}],"\n",RowBox[{"{","\n","}"}],"\n",RowBox[
+{RowBox[{"Book","::","func"}],"<","void",">"," ",RowBox[{"deleteInformation",RowBox[
+{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","void",">"," ",RowBox[
+{"deletePhoneNumber",RowBox[{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}]," ","<","void",">"," ",RowBox[
+{"deleteAddress",RowBox[{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","void",">"," ",RowBox[
+{"printGivenInfo",RowBox[{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","void",">"," ",RowBox[
+{"printGivenInfo",RowBox[{"(","int",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}]," ","<","addressBook",">"," ",RowBox[
+{"searchInfo",RowBox[{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","addressBook",">"," ",RowBox[
+{"searchInfo",RowBox[{"(","int",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","string",">"," ",RowBox[
+{"searchName",RowBox[{"(","int",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","int",">"," ",RowBox[
+{"searchPhoneNumber",RowBox[{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","string",">"," ",RowBox[
+{"searchaddress",RowBox[{"(","string",")"}]}]}],"\n",RowBox[{RowBox[{"Book","::","func"}],"<","bool",">"," ",RowBox[
+{"found",RowBox[{"(","string",")"}]}]}],RowBox[{"\n","\n"}],RowBox[{RowBox[{"addressBook","::","operator"}],"+",RowBox[
+{"(","addressBook",")"}]}],"\n",RowBox[{RowBox[{"addressBook","::","operator"}],"-",RowBox[
+{"(","addressBook",")"}]}],"\n",RowBox[{RowBox[{"addressBook","::","operator"}],RowBox[
+{"++",RowBox[{"(","int",")"}]}]}],"\n",RowBox[{RowBox[{RowBox[{"addressBook","::","operator"}],"-",RowBox[
+{"+",RowBox[{"(",")"}]}]}],"\n",RowBox[{RowBox[{"addressBook","::","operator"}],RowBox[
+{"--",RowBox[{"(","int",")"}]}]}]}],"\n",RowBox[{RowBox[{"addressBook","::","operator"}],RowBox[
+{"--",RowBox[{"(",")"}]}]}],"\n",RowBox[{RowBox[{RowBox[{"addressBook","::","operator"}],"[","]"}],RowBox[
+{"(","int",")"}]}]}],"Input",ExpressionUUID -> "33a67abd-f9ef-44e6-935d-e46e93c4f316"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "13. for Wolfram Cloud 1.61.2.3 (February 12, 2022)"]
