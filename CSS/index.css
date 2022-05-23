@@ -155,3 +155,23 @@ nav a {
 nav a:hover {
 	color: #a494f5;
 }
+
+.title-span{
+    display: inline-block;
+    margin: 20px;
+}
+
+.logo-title{
+    
+    margin-right: 30px;
+    height: 80px;
+    width: auto;
+    white-space: nowrap;
+    float: left;
+}
+.h3-title{
+    white-space: nowrap;
+}
+.h1-title{
+    white-space: nowrap;
+}
