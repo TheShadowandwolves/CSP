@@ -68,7 +68,7 @@ border-radius: 2px;
 #style-1::-webkit-scrollbar
 {
 width: 5px;
-background-color: #F7F7F7;
+background-color: #2e0;
 }
 
 #style-1::-webkit-scrollbar-thumb
@@ -101,7 +101,7 @@ background-color: #BFBFBF;
 
 .main-menu:hover, nav.main-menu.expanded {
 width:250px;
-overflow:hidden;
+overflow: hidden;
 opacity:1;
 
 }
@@ -115,7 +115,7 @@ opacity:1;
     height:100%;
     left:0;
     width:55px;
-    overflow:hidden;
+    overflow: hidden;
     -webkit-transition:width .2s linear;
     transition:width .2s linear;
     -webkit-transform:translateZ(0) scale(1,1);
@@ -143,7 +143,7 @@ width:255px;
 display:table;
 border-collapse:collapse;
 border-spacing:0;
-
+color:#1b1d20;
 font-size: 15px;
 text-decoration:none;
 font-weight: bold;
@@ -153,7 +153,7 @@ transition:all .14s linear;
 font-family: 'Strait', sans-serif;
 border-top:1px solid black;
 
-text-shadow:none;  
+text-shadow: 1px 1px 1px #fff;  
 }
 
 
@@ -248,7 +248,7 @@ user-select:none;
 }
     
 /*top menu bar settings*/
-.main-menu .ui, .main-menu li {
+.main-menu .ui, nav li {
 outline:0;
 margin:0;
 padding:0;
@@ -348,3 +348,31 @@ box-shadow:         inset 0px -4px 5px -4px rgba(50, 50, 50, 0.55);
     background-color: rgb(255, 255, 255);
 }
 
+/*body text*/
+
+.welcome-part{
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.parts{
+    padding: 1em 5em 0 9em;
+    height: 100%;
+    background-color: white;
+    color: #010101;
+}
+
+.p-parts{
+    font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+    color: #010101;
+    font-weight: bold;
+}
+.csp-parts{
+    font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	line-height: 1.5em;
+    color: #010101;
+    font-weight: bold;
+}
