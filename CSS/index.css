@@ -68,13 +68,13 @@
 	padding: 40px 0 400px 0;
 }
 
-body {
+.index-body {
 	margin: 0px;
 
 	background: #1b1d20;
 }
 
-h1, h2, a {
+h1, h2, .ina {
 	font-family: "Rubik", Helvetica, Arial, sans-serif;
 	color: white;
 	font-weight: normal;
@@ -112,7 +112,7 @@ h2::before {
 	margin: 0 20px;
 }
 
-.sa > a {
+.sa > .ina {
 	display: block;
 	max-width: 120px;
 	text-align: center;
@@ -125,12 +125,12 @@ h2::before {
 	padding: 1em;
 }
 
-.sa > a:hover {
+.sa > .ina:hover {
 	background: #a494f5;
 	color: white;
 }
 
-nav {
+.menu {
 	width: 100%;
 	background: #010101;
 	position: fixed;
@@ -138,21 +138,22 @@ nav {
 	z-index: 100;
 }
 
-nav ul {
+.menu .inul {
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	padding: 0px;
+    text-transform: uppercase;
 }
 
-nav a {
+.menu .ina {
 	padding: 10px 20px;
 	text-decoration: none;
 	color: white;
 	font-size: 1.4em;
 }
 
-nav a:hover {
+.menu .ina:hover {
 	color: #a494f5;
 }
 
