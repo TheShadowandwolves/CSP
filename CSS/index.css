@@ -66,12 +66,16 @@
 
 .body-feature{
 	padding: 40px 0 400px 0;
+    background-color: #3d3c3a;
 }
 
-.index-body {
-	margin: 0px;
-
-	background: #1b1d20;
+body {
+    margin:0px;
+    padding:0px;
+    font-family: "Open Sans", arial;
+  
+      font-weight:200;
+      background: #1b1d20;	
 }
 
 h1, h2, .ina {
