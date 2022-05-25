@@ -109,7 +109,7 @@ opacity:1;
 .main-menu {
     background: #eeeeee;
     color: black;
-    position:fixed;
+    position:absolute;
     top: 220px;
     bottom:0;
     height:100%;
