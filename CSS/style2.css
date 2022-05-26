@@ -261,3 +261,14 @@
       color: #6badff;
       border-radius: 50%;
   }
+
+  .arrow{
+      text-decoration: none;
+  }
+
+  .arrow:visited{
+      color: #6badff;
+  }
+  .arrow:active{
+      color: #ffffff;
+  }
