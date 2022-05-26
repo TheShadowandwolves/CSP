@@ -80,6 +80,15 @@
     color: #010101;
     font-weight: bold;
 }
+
+li{
+    font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+    color: #010101;
+    font-weight: bold; 
+}
+
 .csp-parts{
     font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
 	font-size: 26px;
@@ -301,3 +310,56 @@
   .arrow:active{
       color: #6badff;
   }
+
+  .arrow:link{
+      color: #6badff;
+  }
+
+
+  /*code part*/
+  .code-div{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+      background-color: #a4acb6;
+  }
+
+  .code-paper{
+    width: 99%;
+    text-align: left;
+    
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #e1ffff;
+
+  }
+
+  /*code colors*/
+.color{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+  .cred{
+      color: red;
+  }
+  .cblue{
+      color: blue;
+  }
+  .cgreen{
+      color: green;
+  }
+.cblack{
+    color: #000;
+}
+
+  .wrong{
+      color: rgb(255, 58, 58);
+      text-decoration:underline;
+       
+  }
+
+.one-line{
+white-space: nowrap;
+
+}
