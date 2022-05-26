@@ -63,6 +63,16 @@
     color: #010101;
 }
 
+.parts-tutorial{
+    padding-left: 30em;
+}
+
+.tutorial{
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+}
+
 .p-parts{
     font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
 	font-size: 1em;
@@ -97,7 +107,7 @@
     font-size: 12px;
     font-weight: 200;
     background-color: #2e353d;
-    position: absolute;
+    position: fixed;
     top: 240px;
     left: 20px;
     min-width: none;
@@ -234,4 +244,20 @@
     .nav-side-menu .menu-list .menu-content {
       display: block;
     }
+  }
+
+  /*up icon*/
+
+  .up-div{
+      display: flex;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width: 50px;
+      bottom: 20px;
+      right: 50px;
+      background-color: #23282e;
+      color: #6badff;
+      border-radius: 50%;
   }

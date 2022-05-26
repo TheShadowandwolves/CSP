@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="CSS/style2.css"/>
     <script src="index.js"></script>
     <link rel="shortcut icon" href="Images/Schwarz__Weiß_und_Grün_Baum_Southview_Recreation_Logo__1_-removebg-preview.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
+    
 <!--top menu-->
 <nav class="top-menu">
     <ul class="uu">
@@ -39,24 +41,25 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <div class="nav-side-menu">
+    <!--first word, page nav name-->
     <div class="brand">CSP</div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
   
         <div class="menu-list">
-  
+            <!--Dashboard, top page-->
             <ul id="menu-content" class="menu-content collapse out">
                 <li>
                   <a href="#Dashboard">
                   <i class="fa fa-dashboard fa-lg"></i> Dashboard
                   </a>
                 </li>
-
+                <!--basic stuff, menu part 1-->
                 <li  data-toggle="collapse" data-target="#products" class="collapsed active">
                   <a href="#"><i class="fa fa-gift fa-lg"></i> CSP Tutorial<span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="products">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Intro</a></li>
+
+                    <li><a href="#Intro">Intro</a></li>
                     <li><a href="#">Get Started</a></li>
                     <li><a href="#">Syntax</a></li>
                     <li><a href="#">Output</a></li>
@@ -165,7 +168,7 @@
 
                     </ul>
 
-
+                    <!--examples-->
                 <li data-toggle="collapse" data-target="#service" class="collapsed">
                   <a href="#"><i class="fa fa-globe fa-lg"></i> Examples <span class="arrow"></span></a>
                 </li>  
@@ -175,7 +178,7 @@
                   <li>Example 3</li>
                 </ul>
 
-
+                <!--extras, TODO-->
                 <li data-toggle="collapse" data-target="#new" class="collapsed">
                   <a href="#"><i class="fa fa-car fa-lg"></i> Extras <span class="arrow"></span></a>
                 </li>
@@ -185,13 +188,13 @@
                   <li>Certificate</li>
                 </ul>
 
-
+                <!--About us, maybe to change-->
                  <li>
                   <a href="#">
                   <i class="fa fa-user fa-lg"></i> About us
                   </a>
                   </li>
-
+                  <!--back to homepage-->
                  <li>
                   <a href="#">
                   <i class="fa fa-users fa-lg"></i> Home
@@ -202,13 +205,17 @@
 </div>     
         
 <!--end of other side menu-->
-
+<div class="up-div">
+    <span class="material-symbols-outlined up-icon">
+    arrow_upward
+    </span></div>
 
 
 
 
 
    <!--text parts-->
+   <!--Dashboard-->
    <section id="Dashboard" class="welcome-part">
     <div class="parts">
         <h2 class="csp-parts">CSP Language (Central Software Programming-Language)</h2>
@@ -219,13 +226,49 @@
         </p>
     </div>
 </section>
+<!--blank section-->
 <section class="welcome-part">
     <div class="parts">
-        <h2 class="csp-parts"></h2>
+
+        <p class="p-parts"></p>
+    </div>
+</section>  
+<!--Tutorial-->
+<section class="welcome-part">
+    <div class="parts parts-tutorial">
+        <h2 class=" tutorial">CSP Tutorial</h2>
         <p class="p-parts"></p>
     </div>
 </section>    
 
+<section id="Intro" class="welcome-part">
+    <div class="parts">
+        <h2 class="csp-parts">Intro</h2>
+        <h3>What is CSP?</h3>
+        <ul>
+            <li>CSP is a cross-platform language that can be used to create high-performance software applications.</li>
+            <li>CSP was developed by Leonard Blam, as an extension to the C, C++ and Phyton language.</li>
+            <li>CSP gives programmers a high level of control over system resources and memory</li>
+            <li>CSP is open source and allows for developers to create their own editors and frameworks on it </li>
+        </ul>
+        <h3>Why use CSP?</h3>
+            <ul>
+                <li>CSP can be used in today's operating systems, Graphical User Interfaces, and embedded systems.</li>
+                <li>CSP is an object-oriented programming language which gives a clear structure to programs and allows code to be reused,
+                     lowering development costs.</li>
+                <li>CSP is portable and can be used to develop applications that can be adapted to multiple platforms.</li>
+                <li>CSP is fun and easy to learn!</li>
+                <li>As CSP is close to C++, C# and Phyton, it makes it easy for programmers to switch to other languages or vice versa.</li>
+               
+            </ul>
+            
+            <h3>Difference between other languages and CSP</h3>
+            
+            <p class="p-parts">CSP uses similar syntaxes as phyton and C languages.
+                <br>
+                The main difference is that CSP also supports web development, mods and dynamic coding.
+            </p>
+    </div>
 
 
 </body>
