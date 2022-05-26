@@ -99,6 +99,33 @@
     background: #6badff;
 }
 
+.placeholder{
+    position: fixed;
+
+    top: 50px;
+    left: 20px;
+    height: 200px;
+    width: 220px;
+    background-color: #181c20;
+    margin-bottom: 20px;
+}
+
+.inner-placeholder{
+    position: relative;
+
+    height: 90%;
+    bottom: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.place-img{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    height: 150px;
+    width: auto;
+}
 
 /*other side menu*/
 .nav-side-menu {
@@ -114,6 +141,7 @@
     width: 220px;
     height: 100%;
     color: #e1ffff;
+
   }
   .nav-side-menu .brand {
     background-color: #23282e;
@@ -238,6 +266,7 @@
       font-size: 22px;
       padding-left: 20px;
       line-height: 50px !important;
+      
     }
   }
   @media (min-width: 767px) {
@@ -270,5 +299,5 @@
       color: #6badff;
   }
   .arrow:active{
-      color: #ffffff;
+      color: #6badff;
   }
