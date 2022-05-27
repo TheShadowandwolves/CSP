@@ -360,6 +360,10 @@ li{
   }
 
 .one-line{
-white-space: nowrap;
+    float: left;
+    display: flex;
+}
 
+.on-line{
+   
 }
