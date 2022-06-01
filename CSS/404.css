@@ -217,11 +217,29 @@ span.pink{
     color: pink;
 }
 
+span.black{
+    color: black;
+}
+span.yellow{
+    color: rgb(201, 201, 0);
+}
+span.violat{
+    color: #ff00ff;
+}
+
 .Terminal-link{
     text-decoration: none;
     color: #48beef;
-    height: auto;
-    width: auto;
+    padding: 10px;
+}
+.x-symbol{
+    position: relative;
+    background-color: gray;
+    text-decoration: none;
+    margin: auto;
+    padding: 0;
+    color: white;
+    font-size: 12px;
 }
 /*
 .viewFull {
@@ -243,3 +261,64 @@ span.pink{
 
 }
 */
+
+.result{
+    display: flex;
+    position: absolute;
+    left: 20%;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: white;
+    height: 130px;
+    width: 500px;
+    color: black;
+}
+
+.Terminal{
+    position: relative;
+    margin: auto;
+    margin-top: 26px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: black;
+    height: 100px;
+    width: 498px;
+    color: white;
+    
+}
+
+.Output{
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    left: 2px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.output{
+    text-align: left;
+    padding: 0 10px;
+    
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Output-end{
+    float: right;
+    right: 0;
+    margin-left: 400px;
+}
+
+.Output-end2{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 30px;
+    margin-left: 200px;
+    white-space: nowrap;
+}

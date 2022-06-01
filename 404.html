@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/404.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,600,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
     <title>404 Page not found</title>
 </head>
 <body>
@@ -49,18 +51,21 @@
 
 <div class="error error-2">
 
-    <div class="wrap">
-      <div class="404">
-          404.gsm 
-        <pre><code>
-
-            <br>
-            <span class="blue">GSML&lt;</span><span class="blue">lang="en"&gt;</span>
-            <span class="orange">{</span>
-                <span class="blue">head&lt;</span><span class="blue">&gt;</span>
-                <span class="orange">{</span>
-                    <span class="pink">@</span><span>include lib</span><span class="green">&lt;404.csp</span><span class="green">&gt;</span>
-                    <span class="pink">@</span><span>include lib</span><span class="green">&lt;GSML</span><span class="green">&gt;</span>
+<div class="wrap">
+<div class="404">
+404.gsm 
+<pre><code>
+<span class="blue">GSML&lt;</span><span class="blue">lang="en"&gt;</span>
+<span class="orange">{</span>
+ <span class="blue">head&lt;</span><span class="blue">&gt;</span>
+ <span class="orange">{</span>
+  <span class="pink">@</span><span>include lib</span><span class="green">&lt;404.csp</span><span class="green">&gt;</span>
+  <span class="blue">meta
+  <span class="orange">{</span>    
+   <span class="violat">charset="UTF-8"</span>
+   <span class="violat">http-equiv="X-UA-Compatible" content="IE=edge"</span>
+   <span class="violat">name="viewport" content="width=device-width, initial-scale=1.0"</span>
+</span>
                 <!--    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,8 +92,14 @@
 </span>
 
 <div  class="result">
+    <div class="Output">
+        <span class="black">Output: </span> 
+        <span class="Output-end"><a href="#"><span class="material-symbols-outlined x-symbol">close </span></a> </span>
+        <span class="Output-end2"><a href="#"><span class="material-symbols-outlined x-symbol">start</span></a> </span> 
+    </div>
+     <br>
     <div class="Terminal">
-        <span>Output: </span>
+        
         <br>
         <div class="output">
             <span>   ERROR 404!
@@ -97,7 +108,7 @@
             <span>The file you are looking for, 
                 is not where you think it is.</span>  
         </div>
-        <span class="blue"><a class="Terminal-link" href="index.html">Click here </a></span><span>to exit back to Homepage</span>
+       <a class="Terminal-link" href="index.html"><span>Click here</span></a><span> to exit back to Homepage</span>
     </div>
 </div>
 </body>
