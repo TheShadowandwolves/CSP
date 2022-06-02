@@ -201,6 +201,9 @@ body:after {
 code {
   color: white;
 }
+span.white{
+    color: white;
+}
 span.blue {
   color: #48beef;
 }
@@ -226,11 +229,18 @@ span.yellow{
 span.violat{
     color: #ff00ff;
 }
+span.red{
+    color: red;
+}
 
 .Terminal-link{
     text-decoration: none;
     color: #48beef;
     padding: 10px;
+}
+
+.Terminal-link:active{
+    color: #33cc33;
 }
 .x-symbol{
     position: relative;

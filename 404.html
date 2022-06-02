@@ -18,29 +18,31 @@
       
     404.csp
     <pre><code>
-        <span class="pink">@</span><span>include lib</span><span class="green">&lt;csp</span><span class="green">&gt;</span>
-        <br>
-        <span class="blue">public Class</span> Main<span class="green">(</span>stk0<span class="green">)</span>
+    <span class="pink">@</span><span>include lib</span><span class="green">&lt;csp</span><span class="green">&gt;</span>
+    <br>
+    <span class="blue">static func</span> Click-here<span class="green">(</span>&<span class="green">)</span>
+    <span class="orange">{</span>
+        <span class="yellow">this::before</span>()<span class="orange">-></span><span class="yellow">color</span>(<span class="violat">"blue"</span>)
+        <span class="yellow">this::active</span>()<span class="orange">-></span><span class="yellow">color</span>(<span class="violat">"green"</span>)
+        <span class="yellow">if</span>(<span class="white">Console.</span><span class="blue">input.</span><span class="white">MouseClick(0)</span>)
         <span class="orange">{</span>
+                <span class="yellow">print</span>(<span class="red">"connecting..."</span>)
+                <span class="yellow">scan</span>(<span class="blue">user.input</span>(<span class="yellow">href</span>) , x)
+                <span class="yellow">try</span>
+                <span class="orange">{</span>
+                <span class="yellow">if</span>(<span class="white"><span class="white">Console.</span><span class="blue">getResponse</span>(x)<span class="blue"> as </span><span class="violat">HttpWebResponse</span></span>)
+                <span class="orange">{</span>
+                    <span class="yellow">print</span>(<span class="red">"connection successful, redirecting..."</span>)
+                    <span class="white">Console.</span><span class="blue">openURL</span>(x)
+                <span class="orange">}</span>
+                <span class="yellow">else</span>
+                <span class="orange">{</span>
+                    <span class="violat">throw</span><span class="green"> "ERROR, COULDN'T ACCESS WEBSITE!"</span>
+                    <span class="violat">return</span>
+                <span class="orange">}</span>
+                <span class="orange">}</span>
         <span class="orange">}</span>
-
-	 <span class="green">&lt;!</span><span>DOCTYPE html</span><span class="green">&gt;</span>
-    <span class="orange">&lt;html&gt;</span>
-    <span class="orange">&lt;style&gt;</span>
-    * {
-	<span class="green">everything</span>:<span class="blue">awesome</span>;
-    }
-    <span class="orange">&lt;/style&gt;</span>
-    <span class="orange">&lt;body&gt;</span> 
-    ERROR 404!
-	FILE NOT FOUND!
-	<span class="comment">&lt;!--The file you are looking for, 
-	is not where you think it is.--&gt;
-	</span>
- <span class="orange"></span> 
-			  
-
-
+    <span class="orange">}</span>
 </div>
 
 
@@ -55,41 +57,46 @@
 <div class="404">
 404.gsm 
 <pre><code>
-<span class="blue">GSML&lt;</span><span class="blue">lang="en"&gt;</span>
+<span class="blue">GSML&lt;</span><span class="yellow">lang=</span><span class="violat">"en"</span><span class="blue">&gt;</span>
 <span class="orange">{</span>
- <span class="blue">head&lt;</span><span class="blue">&gt;</span>
+ <span class="blue">head</span>
  <span class="orange">{</span>
   <span class="pink">@</span><span>include lib</span><span class="green">&lt;404.csp</span><span class="green">&gt;</span>
-  <span class="blue">meta
+  <span class="yellow">title=</span><span class="violat">"404 Page not found!"</span>
+  <span class="blue">meta</span>
   <span class="orange">{</span>    
-   <span class="violat">charset="UTF-8"</span>
-   <span class="violat">http-equiv="X-UA-Compatible" content="IE=edge"</span>
-   <span class="violat">name="viewport" content="width=device-width, initial-scale=1.0"</span>
-</span>
-                <!--    <meta charset="UTF-8">
+   <span class="yellow">charset=</span><span class="violat">"UTF-8"</span>
+   <span class="yellow">http-equiv=</span><span class="orange">{</span><span class="violat">"X-UA-Compatible"</span> , <span class="yellow">content=</span><span class="violat">"IE=edge"</span><span class="orange">}</span>
+   <span class="yellow">name=</span><span class="orange">{</span><span class="violat">"viewport"</span>,<span class="yellow"> content=</span><span class="violat">"width=device-width"</span> , <span class="yellow"> initial-scale=</span><span class="violat">"1.0"</span><span class="orange">}</span>
+  <span class="orange">}</span>
+ <span class="orange">}</span>
+<span class="blue">body&lt;</span><span class="blue">&gt;</span>
+ <span class="orange">{</span>
+  <span class="yellow">print</span>(<span class="red">"ERROR 404! FILE NOT FOUND!"</span>)
+  <span class="yellow">print</span>(<span class="red">"The file you are looking for, is not where you think it is."</span>)
+  <span class="yellow">span</span>
+  <span class="orange">{</span>
+   <span class="blue">link&lt;</span><span class="yellow">file.</span><span class="violat">click-here()</span><span class="blue">&gt;</span>
+   <span class="orange">{</span>
+    <span class="yellow">output=</span> <span class="red">"Click here"</span>
+    <span class="yellow">href=</span> url(<span class="violat">https//:www.cspcode.com</span>)
+   <span class="orange">}</span>  
+   <span class="yellow">print</span>(<span class="red">"to exit back to Homepage"</span>) 
+  <span class="orange">}</span>           
+ <span class="orange">}</span> 
+<span class="orange">}</span>
+  <!--    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/404.css"/>
     <title>404 Page not found</title>-->
-
-                <span class="orange">}</span>
-                <span class="blue">body&lt;</span><span class="blue">&gt;</span>
-                <span class="orange">{</span>
-                <span class="orange">}</span>
-            <span class="orange">}</span>
-    
-       
-                  
-    
-    
     </div>
-    
         </code></pre>
       </div>
     </div>
     
 
-</span>
+
 
 <div  class="result">
     <div class="Output">
