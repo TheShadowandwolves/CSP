@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSP</title>
+    <link rel="stylesheet" href="CSS/code.css/>"/>
     <link rel="stylesheet" href="CSS/index.css"/>
     <link rel="stylesheet" href="CSS/style2.css"/>
+
     <script src="index.js"></script>
     <link rel="shortcut icon" href="Images/Schwarz__Weiß_und_Grün_Baum_Southview_Recreation_Logo__1_-removebg-preview.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -302,22 +304,45 @@
         <h2 class=" tutorial">Syntax</h2>
         <p class="p-parts">Let's break up the following code to understand it better:
         </p>
-        <div class="code-div">
-            <div class="code-paper">
-               <p class="color cblack">@include lib&ltstd.h&gt</p>
-               <br>
-               <br>
-               <p class="color cblack">public Class Main(Stack0)</p>
-               <p class="color cblack">{</p>
-                <span class="one-line">   
-                <p class="color cblack child-line">print(</p>
-                <p class="color cred child-line">"Hello World"</p>
-                <p class="color cblack child-line">)</p>
-                </span>
-                <p class="color cblack">}</p>
-            </div>
+<div class="code-div">
+    <div class="code-paper">
+    <pre> <code>
+    1. <span class="pink">@</span><span class="blue">include lib</span><span class="green">&lt;csp</span><span class="green">&gt;</span>
+    2.
+    3. <span class="orange">func </span><span class="blue">main</span>(<span class="green">stk0</span>)
+    4. <span class="black">{</span> 
+    5.     <span class="orange">print</span>(<span class="red">"Hello World"</span>)
+    6. <span class="black">}</span>
+    </code></pre>
+    </div>
+</div>
+        <p class="p-parts">Example explained:</p>
+
+        <div class="ex-part">
+            <span class="black bold">Line 1: </span><span class="red filledred">@include lib&lt;csp&gt;</span>
+             is a <span class="bold">file library</span>  that lets us work with certain given methods, functions and variables into the program, such as <span class="red filledred">print()</span>  
+             (used in line 5). Library Files add functionality to CSP programs. We will discuss Files later <br>
+             <span class="black bold">Line 3:</span>
+             Another thing that will appear in a CSP program, is main(). The func before it tells the compiler that this is a function.
+             The stk0 inside the () describes the function as stack 0 or better say: the beginning of the program. But, we will see later on.
+            Any code inside its curly brackets {} will be executed.
+            <span class="black bold">Line 4:</span>
+            <span class="red filledred">print()</span> is a function used to output/print text to the user. In our example it will output "Hello World".
+            <span class="black bold">Line 5:</span>
+            <span class="red filledred">}</span> ends a function. Not as other C languages, main() without given parameter is always a void function and will not return anything. 
+            In the case of main(stk0), after the function is concluded, the program will jump to the next stack (stk1), what would be the end of the program. 
+            <br> 
+            <span class="black bold">Note:</span> We will discuss it later. There is no need of calling stk1. If no stk0 was given, in order to finish the program, the function needs 
+            a return end, or similar (if there exist code after the main()). We will discuss it later.
+        </div>
+        <div class="Note">
+            <span class="black bold">Note:</span> Unlike C languages, we do not end a line with ";". Every line break is considered as a new line of code and therefore
+            cannot be split to make it multiple lines (there is an exception to it).
+            <br>
+            <span class="black bold">Note: </span>The compiler ignores white spaces. However, multiple lines makes the code more readable.
         </div>
     </div>
+    
 </section>    
 </body>
 </html>

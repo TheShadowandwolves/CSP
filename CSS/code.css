@@ -1,0 +1,35 @@
+code {
+     color: white !important;
+  }
+  span.white{
+      color: white;
+  }
+  span.blue {
+    color: #48beef;
+  }
+  span.comment {
+    color: #7f8c8d;
+  }
+  span.orange {
+    color: #f39c12;
+  }
+  span.green {
+    color: #33cc33;
+  }
+  span.pink{
+      color: pink;
+  }
+  
+  span.black{
+      color: black;
+  }
+  span.yellow{
+      color: rgb(201, 201, 0);
+  }
+  span.violat{
+      color: #ff00ff;
+  }
+  span.red{
+      color: red;
+  }
+  

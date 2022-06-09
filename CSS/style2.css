@@ -74,10 +74,10 @@
 }
 
 .p-parts{
-    font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+  font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
-    color: #010101;
+  color: #010101;
     font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ li{
     font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
 	font-size: 26px;
 	line-height: 1.5em;
-    color: #010101;
+   color: #010101;
     font-weight: bold;
 }
 
@@ -210,6 +210,7 @@ li{
   .nav-side-menu ul .sub-menu li,
   .nav-side-menu li .sub-menu li {
     background-color: #181c20;
+   
     border: none;
     line-height: 28px;
     border-bottom: 1px solid #23282e;
@@ -218,6 +219,7 @@ li{
   .nav-side-menu ul .sub-menu li:hover,
   .nav-side-menu li .sub-menu li:hover {
     background-color: #020203;
+    color: #d19b3d;
   }
   .nav-side-menu ul .sub-menu li:before,
   .nav-side-menu li .sub-menu li:before {
@@ -267,6 +269,7 @@ li{
       padding: 3px;
       background-color: #ffffff;
       color: #000;
+      
       width: 40px;
       text-align: center;
     }
@@ -321,6 +324,7 @@ li{
     width: 100%;
     text-align: center;
     padding: 5px;
+    margin: 20px 0;
       background-color: #a4acb6;
   }
 
@@ -330,40 +334,58 @@ li{
     
     padding: 5px;
     margin: 0 auto;
-    background-color: #e1ffff;
-
-  }
-
-  /*code colors*/
-.color{
-    font-size: 16px;
-    font-weight: normal;
-}
-
-  .cred{
-      color: red;
-  }
-  .cblue{
-      color: blue;
-  }
-  .cgreen{
-      color: green;
-  }
-.cblack{
+    background-color: #e0e2e5;
     color: #000;
-}
-
-  .wrong{
-      color: rgb(255, 58, 58);
-      text-decoration:underline;
-       
   }
 
-.one-line{
-    float: left;
-    display: flex;
+
+
+  code {
+    color: #000 !important;
+    font-size: large;
+    font-weight: 500;
+ }
+ span.white{
+     color: white;
+ }
+ span.blue {
+   color: #48beef;
+ }
+ span.comment {
+   color: #7f8c8d;
+ }
+ span.orange {
+   color: #f39c12;
+ }
+ span.green {
+   color: #33cc33;
+ }
+ span.pink{
+     color: rgb(188, 22, 147);
+ }
+ 
+ span.black{
+     color: black;
+ }
+ span.yellow{
+     color: rgba(204, 180, 0, 0.872);
+ }
+ span.violat{
+     color: #ff00ff;
+ }
+ span.red{
+     color: red;
+ }
+.ex-part{
+
+  font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+span.bold{
+  font-weight: 800;
 }
 
-.on-line{
-   
+span.filledred{
+  background-color: rgba(255, 123, 123, 0.255);
 }
