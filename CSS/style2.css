@@ -376,7 +376,7 @@ li{
  span.red{
      color: red;
  }
-.ex-part{
+.ex-part .Note{
 
   font-family: "IBM Plex Mono", Helvetica, Arial, sans-serif;
 	font-size: 1em;
@@ -388,4 +388,13 @@ span.bold{
 
 span.filledred{
   background-color: rgba(255, 123, 123, 0.255);
+}
+
+.Note{
+  margin: 10px 0;
+  background-color: #f6ffc5;
+}
+
+.space{
+  margin: 100px 0;
 }

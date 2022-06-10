@@ -69,8 +69,8 @@
 
                     <li><a href="#Intro">Intro</a></li>
                     <li><a href="#get-Started">Get Started</a></li>
-                    <li><a href="#">Syntax</a></li>
-                    <li><a href="#">Output</a></li>
+                    <li><a href="#syntax">Syntax</a></li>
+                    <li><a href="#output">Output</a></li>
                     <li><a href="#">Comments</a></li>
                     <li><a href="#">Variables</a></li>
                     <li><a href="#">User Input</a></li>
@@ -208,6 +208,7 @@
                   <i class="fa fa-users fa-lg"></i> Home
                   </a>
                 </li>
+                <div class="space"></div>
             </ul>
      </div>
 </div>     
@@ -325,9 +326,10 @@
              <span class="black bold">Line 3:</span>
              Another thing that will appear in a CSP program, is main(). The func before it tells the compiler that this is a function.
              The stk0 inside the () describes the function as stack 0 or better say: the beginning of the program. But, we will see later on.
-            Any code inside its curly brackets {} will be executed.
+            Any code inside its curly brackets {} will be executed. <br>
             <span class="black bold">Line 4:</span>
             <span class="red filledred">print()</span> is a function used to output/print text to the user. In our example it will output "Hello World".
+            <br>
             <span class="black bold">Line 5:</span>
             <span class="red filledred">}</span> ends a function. Not as other C languages, main() without given parameter is always a void function and will not return anything. 
             In the case of main(stk0), after the function is concluded, the program will jump to the next stack (stk1), what would be the end of the program. 
@@ -344,5 +346,56 @@
     </div>
     
 </section>    
+   
+
+<!--Output-->
+<section id="output" class="welcome-part">
+    <div class="parts">
+        <h2 class=" tutorial">Output</h2>
+        <p class="p-parts">CSP uses two different output functions, namely: print() and write()</p>
+        
+<div class="code-div">
+    <div class="code-paper">
+    <pre> <code>
+    1. <span class="pink">@</span><span class="blue">include lib</span><span class="green">&lt;csp</span><span class="green">&gt;</span>
+    2.
+    3. <span class="orange">func </span><span class="blue">main</span>(<span class="green">stk0</span>)
+    4. <span class="black">{</span> 
+    5.     <span class="orange">print</span>(<span class="red">"Hello World"</span>)
+    6. <span class="black">}</span>
+    </code></pre>
+    </div>
+</div>
+        <p class="p-parts"> print() will output the given condition inside the () to the compiler. So to say, to the user. 
+        </p>
+
+<div class="code-div">
+    <div class="code-paper">
+    <pre> <code>
+    1. <span class="pink">@</span><span class="blue">include lib</span><span class="green">&lt;csp</span><span class="green">&gt;</span>
+    2.
+    3. <span class="orange">func </span><span class="blue">main</span>(<span class="green">stk0</span>)
+    4. <span class="black">{</span> 
+    5.     <span class="orange">write</span>(<span class="red">"Hello World"</span>)
+    6. <span class="black">}</span>
+    </code></pre>
+    </div>
+</div>
+<p class="p-parts"> when we use write(), we output the given condition onto the console and not to the user. The message will be seen in the Terminal
+    but not in the application. We use write() for debugging and checking if the program successfully run the code. These messages, like 
+    "Entered certain function" will not be necessary for the user to see, only for a programmer. 
+</p>
+    </div>
+</section>    
+
+<section id="end" class="welcome-part">
+    <div class="parts">
+        <br>
+        <br>
+
+    </div>
+    <br>
+    <br>
+</section>
 </body>
 </html>
